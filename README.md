@@ -8,3 +8,5 @@ Diese Repo dient mir als Backup bzw. infos für die einrichtung von Niri unter C
 -adw-gtk-theme (für Darkmode von Gnome Apps)
 
 -gvfs-smb (um smb in Nautilus benutzen zu können)
+
+-blueman (für Bluetooth)
