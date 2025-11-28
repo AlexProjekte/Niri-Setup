@@ -4,5 +4,7 @@ Diese Repo dient mir als Backup bzw. infos für die einrichtung von Niri unter C
 # Pakete die installiert werden sollten:
 
 -qt6ct (für Darkmode von KDE Plamsa Apps)
+
 -adw-gtk-theme (für Darkmode von Gnome Apps)
+
 -gvfs-smb (um smb in Nautilus benutzen zu können)
