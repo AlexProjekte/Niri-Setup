@@ -22,9 +22,9 @@
 
     "modules-right": [
         "tray",
-	"bluetooth",
+	    "bluetooth",
+        "custom/updates",
         "pulseaudio",
-	"custom/updates",
         "clock",
         "custom/exit"
     ]
