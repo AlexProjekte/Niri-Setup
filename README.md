@@ -12,3 +12,5 @@ Die Config-Datein wurden im Dracula-Theme eingerichtet.
 -gvfs-smb (um smb in Nautilus benutzen zu können)
 
 -blueman (für Bluetooth)
+
+-waybar-module-pacman-updates-git (um Updates im Tray anzuzeigen)
