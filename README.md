@@ -1,5 +1,5 @@
 # Niri-Setup
-Diese Repo dient mir als Backup bzw. infos für die einrichtung von Niri unter Chachyos (wobei die Configs auch bei anderen Distros funktionieren sollten).
+Diese Repo dient mir als Backup bzw. infos für die einrichtung von Niri unter ChachyOS (wobei die Configs auch bei anderen Distros funktionieren sollten).
 
 Die Config-Datein wurden im Dracula-Theme eingerichtet.
 
