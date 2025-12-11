@@ -63,7 +63,7 @@ binds {
     MOD+N 				hotkey-overlay-title="Open Notifications: swaync"{spawn-sh "swaync-client -t -sw";}
 
     // Please choose your own file manager
-    MOD+E                             hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
+    MOD+E                             hotkey-overlay-title="File Manager: Thunar" { spawn-sh "thunar"; }
 
     // ─── Audio Controls ───
     // Example volume keys mappings for PipeWire & WirePlumber.
