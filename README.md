@@ -7,10 +7,14 @@ Die Config-Datein wurden im Dracula-Theme eingerichtet.
 
 -qt6ct (für Darkmode von KDE Plamsa Apps)
 
--adw-gtk-theme (für Darkmode von Gnome Apps)
-
 -gvfs-smb (um smb in Nautilus benutzen zu können)
 
 -blueman (für Bluetooth)
 
 -waybar-module-pacman-updates-git (um Updates im Tray anzuzeigen)
+
+-pavucontrol-qt (Audiocontroller zum tauschen mit pavucontrol)
+
+-deepin calendar (Als Kalender)
+
+-thunar (Dateiexplorer)
