@@ -17,6 +17,7 @@
     },
     "rewrite": {
       "Firefox Web Browser": "Firefox",
+      "LibreWolf Web Browser": "LibreWolf",
       "Foot Server": "Terminal"
     }
   },
@@ -74,7 +75,7 @@
 
   // Power Menu
   "custom/exit": {
-    "format": " 󰐥 ",
+    "format": " ! ",
     "on-click": "~/.config/waybar/scripts/power-menu.sh",
     "tooltip-format": "Power Menu"
   },
@@ -99,7 +100,7 @@
   // Clock
   "clock": {
     "format": "{:%H:%M %a %D}",
-    "on-click": "gnome-calendar",
+    "on-click": "dde-calendar",
     "tooltip": false
   },
 
@@ -134,7 +135,7 @@
     "format-source-muted": "",
     "format-icons": {
     },
-    "on-click": "pavucontrol"
+    "on-click": "pavucontrol-qt"
   },
 
   // Bluetooth
