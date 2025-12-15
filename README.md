@@ -40,6 +40,9 @@ Niri:
 
 
 
+
+
+
 Waybar:
 
 -dont use pavucontrol-qt
