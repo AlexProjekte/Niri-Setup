@@ -18,3 +18,5 @@ Die Config-Datein wurden im Dracula-Theme eingerichtet.
 -deepin calendar (Als Kalender)
 
 -thunar (Dateiexplorer)
+
+-gnome-shell (falls Discord Streams nicht funktionieren)
