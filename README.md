@@ -1,29 +1,42 @@
 # Niri-Setup
 
 
-This Repository is more or less just a Backup for my Dotfiles for Niri and CachyOS (even though most of the stuff should work fine in Other Distros)
-
-Its mostly themed after the "Dracula" theme
+This Repository is more or less just a Backup for my Dotfiles for Niri and CachyOS (even though most of the stuff should work fine in Other Distros).
+Its mostly themed after the "Dracula" theme.
 
 
 # Packages you should install:
 
--qt6ct (for darkmode von KDE Plamsa apps)
+-qt6ct (Darkmode von KDE Plamsa Apps)
 
--gvfs-smb (to use smb in Nautilus)
+-gvfs-smb (SMB in Nautilus)
 
--blueman (for Bluetooth)
+-blueman (Bluetooth Manager)
 
--waybar-module-pacman-updates-git (to show updates in the Waybar tray)
-
--deepin calendar (as calendar)
+-waybar-module-pacman-updates-git (Updates in Tray)
 
 
 # Things you maybe need:
 
+-thunar (Explorer alternativ with Darkmode)
 
--thunar (as Explorer if you dont like Nautilus or just want darkmode)
+-pavucontrol-qt (dark Audiocontroller)
 
--pavucontrol-qt (for a dark audiocontroller)
+-gnome-shell (resolve problems with Discord Streams)
 
--gnome-shell (if you have problems with Discord streams)
+-deepin calendar (Calendar)
+
+-librewolf-bin (secure Browser)
+
+# Reasons to go inside the Niri or Waybar config:
+
+Niri:
+
+-change Keybinds
+-setup your Monitor (Check with "niri msg outputs")
+-dont use Librewolf or Thunar
+
+
+Waybar:
+
+-dont use pavucontrol-qt
