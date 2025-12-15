@@ -37,12 +37,9 @@ Niri:
 -setup your Monitor (Check with "niri msg outputs")
 
 -dont use Librewolf or Thunar
-
-
-
-
-
-
+  
+  
+  
 Waybar:
 
 -dont use pavucontrol-qt
