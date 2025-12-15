@@ -28,18 +28,17 @@ Its mostly themed after the "Dracula" theme.
 
 -librewolf-bin (secure Browser)
 
-# Reasons to go inside the Niri or Waybar config:
-
-Niri:
+# Reasons to go inside the Niri config:
 
 -change Keybinds
 
 -setup your Monitor (Check with "niri msg outputs")
 
 -dont use Librewolf or Thunar
-  
-  
-  
-Waybar:
 
--dont use pavucontrol-qt
+
+# Resons to go inside the Waybar modules config:
+
+-diffrent  Calendar
+
+-diffrent audiocontroller then pavucontrol-qt
