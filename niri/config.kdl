@@ -263,7 +263,8 @@ binds {
     window-rule {
         geometry-corner-radius 14 // Set every window radius to 20
         clip-to-geometry true
-	opacity 0.9
+		opacity 0.9
+		draw-border-with-background false
     }
 
 // ────────────── Environment Variables ──────────────
@@ -273,6 +274,7 @@ binds {
         DISPLAY ":1"
         ELECTRON_OZONE_PLATFORM_HINT "auto"
         QT_QPA_PLATFORM "xcb"
+		//QT_QPA_PLATFORM "WAYLAND"
         QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
         XDG_SESSION_TYPE "wayland"
         XDG_CURRENT_DESKTOP "niri"
