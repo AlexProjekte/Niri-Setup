@@ -1,22 +1,29 @@
 # Niri-Setup
-Diese Repo dient mir als Backup bzw. infos für die einrichtung von Niri unter ChachyOS (wobei die Configs auch bei anderen Distros funktionieren sollten).
 
-Die Config-Datein wurden im Dracula-Theme eingerichtet.
 
-# Pakete die installiert werden sollten:
+This Repository is more or less just a Backup for my Dotfiles for Niri and CachyOS (even though most of the stuff should work fine in Other Distros)
 
--qt6ct (für Darkmode von KDE Plamsa Apps)
+Its mostly themed after the "Dracula" theme
 
--gvfs-smb (um smb in Nautilus benutzen zu können)
 
--blueman (für Bluetooth)
+# Packages you should install:
 
--waybar-module-pacman-updates-git (um Updates im Tray anzuzeigen)
+-qt6ct (for darkmode von KDE Plamsa apps)
 
--pavucontrol-qt (Audiocontroller zum tauschen mit pavucontrol)
+-gvfs-smb (to use smb in Nautilus)
 
--deepin calendar (Als Kalender)
+-blueman (for Bluetooth)
 
--thunar (Dateiexplorer)
+-waybar-module-pacman-updates-git (to show updates in the Waybar tray)
 
--gnome-shell (falls Discord Streams nicht funktionieren)
+-deepin calendar (as calendar)
+
+
+# Things you maybe need:
+
+
+-thunar (as Explorer if you dont like Nautilus or just want darkmode)
+
+-pavucontrol-qt (for a dark audiocontroller)
+
+-gnome-shell (if you have problems with Discord streams)
