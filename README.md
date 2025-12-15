@@ -32,11 +32,15 @@ Its mostly themed after the "Dracula" theme.
 
 Niri:
 
+
 -change Keybinds
+
 -setup your Monitor (Check with "niri msg outputs")
+
 -dont use Librewolf or Thunar
 
 
 Waybar:
+
 
 -dont use pavucontrol-qt
