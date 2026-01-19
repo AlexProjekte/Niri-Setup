@@ -30,15 +30,15 @@ Its mostly themed after the "Dracula" theme.
 
 # Reasons to go inside the Niri config:
 
--change Keybinds
+-to change Keybinds
 
--setup your Monitor (Check with "niri msg outputs")
+-to setup your Monitors (Check with "niri msg outputs")
 
--dont use Librewolf or Thunar
+-you dont want to use Librewolf or Thunar
 
 
 # Resons to go inside the Waybar modules config:
 
--diffrent  Calendar
+-to change calendar app
 
--diffrent audiocontroller then pavucontrol-qt
+-to change audiocontroller
