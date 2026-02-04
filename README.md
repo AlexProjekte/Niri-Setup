@@ -42,3 +42,7 @@ Its mostly themed after the "Dracula" theme.
 -to change calendar app
 
 -to change audiocontroller
+
+# Helpful stuff
+
+-to change default Apps use xdg-mime
