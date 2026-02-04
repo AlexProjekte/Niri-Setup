@@ -46,3 +46,4 @@ Its mostly themed after the "Dracula" theme.
 # Helpful stuff
 
 -to change default Apps use xdg-mime
+-if you uninstall nautilus just install gnome-shell
