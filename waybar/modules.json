@@ -55,14 +55,14 @@
           "updated": "󰂪"
       },
       "exec-if": "which waybar-module-pacman-updates",
-      "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
+      "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300",
       "on-click": "octopi"
   },
 
   // wofi Application Launcher
   "custom/appmenu": {
     "format": "   ",
-    "on-click": "sleep 0.2;wofi -show drun -replace",
+    "on-click": "sleep 0.2;wofi",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
   },
 
