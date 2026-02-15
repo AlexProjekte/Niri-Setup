@@ -27,6 +27,12 @@ input {
     touchpad {
         tap // Enable tap-to-click
         natural-scroll // Enable natural (macOS-style) scrolling
+	scroll-factor 0.2
+    }
+
+    tablet{
+	map-to-output "HDMI-A-1"
+	calibration-matrix 1.187 0.0 0.0 0.0 1.66 0.0
     }
 
     focus-follows-mouse // Automatically focus windows under the mouse pointer
@@ -37,15 +43,20 @@ input {
 // You can run `niri msg outputs` to get the correct name for your displays.
 // You will have to remove "/-" and edit it before it takes effect.
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
+output "HDMI-A-1"{
+    mode "3840x2160@59.982"
+    position x=720 y=1440
+    scale 3
+}
 
 output "DP-1" {
     mode "2560x1440@164.958" // Set resolution and refresh rate
-    position x=0 y=1080
+    position x=0 y=0
     scale 1 // No scaling (use 2 for HiDPI)
 }
 output "DP-2" {
     mode "2560x1080@143.945" // Set resolution and refresh rate
-    position x=0 y=0    
+    position x=0 y=-1080
     scale 1 // No scaling (use 2 for HiDPI)
 }
 
@@ -71,7 +82,7 @@ binds {
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }
     XF86AudioLowerVolume                allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
     XF86AudioMute                       allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"; }
-    MOD-M			                    allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
+    MOD+M			        allow-when-locked=true { spawn-sh "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"; }
     XF86AudioNext                       allow-when-locked=true { spawn-sh "playerctl next"; }
     XF86AudioPause                      allow-when-locked=true { spawn-sh "playerctl play-pause"; }
     XF86AudioPlay                       allow-when-locked=true { spawn-sh "playerctl play-pause"; }
@@ -186,12 +197,13 @@ binds {
 
     spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
     spawn-sh-at-startup "swww-daemon" // Wallpaper daemon
-    spawn-sh-at-startup "swww img /home/sculx/Bilder/Hintergrund/magical-mystical-landscape-wallpaper-purple-tones.jpg" // Set wallpaper
+    spawn-sh-at-startup "swww img /home/sculx/Bilder/Hintergrund/stargazing-midnight-lofi-girl-headphones-illustration-xs.jpg" // Set wallpaper
     spawn-sh-at-startup "waybar" // Launch waybar
-    spawn-at-startup "swaync" 
+    spawn-at-startup "swaync"
+    spawn-at-startup "sunshine"
 
     prefer-no-csd // Disable program decorations
-    screenshot-path null // Disable screenshot saving
+    screenshot-path "~/Bilder/Screenshots/Screenshot %Y-%m-%d %H-%M-%S.png" // Disable screenshot saving
 
 // ────────────── Layout Settings ──────────────
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
@@ -263,8 +275,16 @@ binds {
     window-rule {
         geometry-corner-radius 14 // Set every window radius to 20
         clip-to-geometry true
-		opacity 0.9
-		draw-border-with-background false
+	opacity 0.9
+	draw-border-with-background false
+    }
+    window-rule {
+        match app-id="AnycubicSlicer"
+	open-maximized true
+    }
+    window-rule {
+	match app-id="discord"
+	open-on-output "DP-2"
     }
 
 // ────────────── Environment Variables ──────────────
@@ -273,11 +293,12 @@ binds {
     environment {
         DISPLAY ":1"
         ELECTRON_OZONE_PLATFORM_HINT "auto"
-        QT_QPA_PLATFORM "xcb"
-		//QT_QPA_PLATFORM "WAYLAND"
+        //QT_QPA_PLATFORM "xcb"
+	QT_QPA_PLATFORM "WAYLAND"
         QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
         XDG_SESSION_TYPE "wayland"
         XDG_CURRENT_DESKTOP "niri"
+	//__EGL_VENDOR_LIBRARY_FILENAMES "usr/share/glvnd/egl_vendor.d/50_mesa.json"
     }
 
     hotkey-overlay {
