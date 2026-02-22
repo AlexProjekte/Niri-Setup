@@ -15,6 +15,8 @@ Its mostly themed after the "Dracula" theme.
 
 -waybar-module-pacman-updates-git (Updates in Tray)
 
+-swaync (notification daemon)
+
 
 # Things you maybe need:
 
