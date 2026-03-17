@@ -1,7 +1,7 @@
 # Niri-Setup
 
 
-This Repository is more or less just a Backup for my Dotfiles for Niri and CachyOS (even though most of the stuff should work fine in Other Distros).
+This Repository is more or less just a Backup for my Dotfiles for Niri.
 Its mostly themed after the "Dracula" theme.
 
 
