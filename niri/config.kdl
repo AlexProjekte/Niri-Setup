@@ -53,6 +53,7 @@ output "DP-1" {
     mode "2560x1440@164.958" // Set resolution and refresh rate
     position x=0 y=0
     scale 1 // No scaling (use 2 for HiDPI)
+    variable-refresh-rate
 }
 output "DP-2" {
     mode "2560x1080@143.945" // Set resolution and refresh rate
@@ -74,7 +75,7 @@ binds {
     MOD+N 				hotkey-overlay-title="Open Notifications: swaync"{spawn-sh "swaync-client -t -sw";}
 
     // Please choose your own file manager
-    MOD+E                             hotkey-overlay-title="File Manager: Thunar" { spawn-sh "thunar"; }
+    MOD+E                             hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
 
     // ─── Audio Controls ───
     // Example volume keys mappings for PipeWire & WirePlumber.
@@ -196,12 +197,11 @@ binds {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
 
     spawn-sh-at-startup "/usr/lib/polkit-kde-authentication-agent-1 &" // Polkit
-    spawn-sh-at-startup "swww-daemon" // Wallpaper daemon
-    spawn-sh-at-startup "swww img /home/sculx/Bilder/Hintergrund/stargazing-midnight-lofi-girl-headphones-illustration-xs.jpg" // Set wallpaper
+    spawn-sh-at-startup "awww-daemon" // Wallpaper daemon
+    spawn-sh-at-startup "awww img /home/sculx/Bilder/7202672-stargazing-midnight-lofi-girl-headphones-illustration-wallpaper-hd-anime-wallpaper-4k-wallpaper-image-background-photos-and-picture.jpg" // Set wallpaper
     spawn-sh-at-startup "waybar" // Launch waybar
     spawn-at-startup "swaync"
     spawn-at-startup "sunshine"
-
     prefer-no-csd // Disable program decorations
     screenshot-path "~/Bilder/Screenshots/Screenshot %Y-%m-%d %H-%M-%S.png" // Disable screenshot saving
 
@@ -283,7 +283,7 @@ binds {
 	open-maximized true
     }
     window-rule {
-	match app-id="discord"
+	match app-id="vesktop"
 	open-on-output "DP-2"
     }
 
