@@ -72,7 +72,8 @@ binds {
     MOD+SPACE                           hotkey-overlay-title="Open App Launcher: wofi" { spawn-sh "wofi"; }
     MOD+B                               hotkey-overlay-title="Open Browser: librewolf" { spawn-sh "librewolf"; }
     MOD+ALT+L                           hotkey-overlay-title="Lock Screen: swaylock" { spawn-sh "swaylock"; }
-    MOD+N 				hotkey-overlay-title="Open Notifications: swaync"{spawn-sh "swaync-client -t -sw";}
+    MOD+N 								hotkey-overlay-title="Open Notifications: swaync"{spawn-sh "swaync-client -t -sw";}
+	MOD+Return                          hotkey-overlay-title="Open Zed-Editor"{ spawn-sh "zeditor"; }
 
     // Please choose your own file manager
     MOD+E                             hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
