@@ -1,5 +1,7 @@
 * {
-    font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family:
+        "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto,
+        Helvetica, Arial, sans-serif;
 }
 #waybar {
     background-color: rgba(40, 42, 54, 0);
@@ -11,26 +13,25 @@
 
 /* Left-most: CachyOS icon */
 #custom-appmenu {
-  font-size: 4;
-  background-image: url('/usr/share/icons/cachyos.svg');
-  background-color: rgba (40, 42, 54, 0.8);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 0px 20px;
-  border-radius: 14px 0px 0px 14px;
+    font-size: 4;
+    background-image: url("/usr/share/icons/cachyos.svg");
+    background-color: rgba (40, 42, 54, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 20px;
+    border-radius: 14px 0px 0px 14px;
 }
 #custom-appmenu:hover {
-  font-size: 4;
-  background-image: url('/usr/share/icons/cachyos.svg');
-  background-color: rgba (68, 71, 90, 0.8);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 0px 20px;
-  border-radius: 14px 0px 0px 14px;
+    font-size: 4;
+    background-image: url("/usr/share/icons/cachyos.svg");
+    background-color: rgba (68, 71, 90, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px 20px;
+    border-radius: 14px 0px 0px 14px;
 }
-
 
 /* Right-most: Clock */
 #clock {
@@ -77,17 +78,18 @@
 #workspaces button.active {
     border-radius: 0px;
     color: #0f1117;
-    background: rgba (189, 147, 249,0.8);
+    background: rgba (189, 147, 249, 0.8);
 }
-#workspaces button.active:hover{
+#workspaces button.active:hover {
     background-color: rgba (139, 233, 253, 0.8);
+    color: #0f1117;
 }
 
 #workspaces button:hover {
-    background: rgba (68, 71, 90, 0.8);
+    background: rgba (40, 42, 54, 0.8);
     border-radius: 0px;
+    color: rgba(255, 255, 255, 1);
 }
-
 
 /* Power/exit button */
 #custom-exit {
@@ -128,8 +130,8 @@
 }
 
 #taskbar button:hover {
-   border-radius:0;
-   background-color: rgba (68, 71, 90, 0.8);
+    border-radius: 0;
+    background-color: rgba (68, 71, 90, 0.8);
 }
 
 /* All system info modules */
