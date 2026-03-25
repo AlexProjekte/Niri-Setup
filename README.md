@@ -46,7 +46,9 @@ Its mostly themed after the "Dracula" theme.
 -to change audiocontroller
 
 # Helpful stuff
--adw-gtk-theme and nwg-look for gnome dark theme
+-adw-gtk-theme for gnome dark theme
+
+-nwg-look to chagne theme without terminal
 
 -to change default Apps use xdg-mime
 
