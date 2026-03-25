@@ -20,8 +20,6 @@ Its mostly themed after the "Dracula" theme.
 
 # Things you maybe need:
 
--thunar (Explorer alternativ with Darkmode)
-
 -pavucontrol-qt (dark Audiocontroller)
 
 -gnome-shell (resolve problems with Discord Streams)
@@ -46,6 +44,7 @@ Its mostly themed after the "Dracula" theme.
 -to change audiocontroller
 
 # Helpful stuff
+
 -adw-gtk-theme for gnome dark theme
 
 -nwg-look to chagne theme without terminal
