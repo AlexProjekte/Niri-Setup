@@ -9,6 +9,8 @@ Its mostly themed after the "Dracula" theme.
 
 -qt6ct (Darkmode von KDE Plamsa Apps)
 
+-adw-gtk-theme (Darkmode von Gnome Apps)
+
 -gvfs-smb (SMB in Nautilus)
 
 -blueman (Bluetooth Manager)
@@ -45,9 +47,7 @@ Its mostly themed after the "Dracula" theme.
 
 # Helpful stuff
 
--adw-gtk-theme for gnome dark theme
-
--nwg-look to chagne theme without terminal
+-nwg-look to change Gnome themes without terminal
 
 -to change default Apps use xdg-mime
 
