@@ -161,7 +161,7 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "{ifname}  ",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "alacritty -e wifi-menu"
+    "on-click": "alacritty -e sudo wifi-menu"
   },
 
   // Other
