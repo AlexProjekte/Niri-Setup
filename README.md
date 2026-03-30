@@ -45,6 +45,7 @@ Its mostly themed after the "Dracula" theme.
 
 -to change audiocontroller
 
+
 # Helpful stuff
 
 -nwg-look to change Gnome themes without terminal
@@ -52,3 +53,7 @@ Its mostly themed after the "Dracula" theme.
 -to change default Apps use xdg-mime
 
 -power-menu.sh needs to get +x in waybar scripts folder
+
+#Laptop stuff
+
+-lxqt-powermanagement
