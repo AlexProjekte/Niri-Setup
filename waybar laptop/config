@@ -23,9 +23,9 @@
     "modules-right": [
         "tray",
         "custom/updates",
+        "pulseaudio",
         "network",
         "battery",
-        "pulseaudio",
         "clock",
         "custom/exit"
     ]
