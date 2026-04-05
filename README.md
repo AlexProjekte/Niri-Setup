@@ -54,6 +54,7 @@ Its mostly themed after the "Dracula" theme.
 
 -power-menu.sh needs to get +x in waybar scripts folder
 
-#Laptop stuff
+# Laptop stuff
 
 -lxqt-powermanagement
+-wlr-autorotate
