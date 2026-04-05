@@ -43,22 +43,12 @@ input {
 // You can run `niri msg outputs` to get the correct name for your displays.
 // You will have to remove "/-" and edit it before it takes effect.
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
-output "HDMI-A-1"{
-    mode "3840x2160@59.982"
-    position x=720 y=1440
-    scale 3
-}
 
-output "DP-1" {
-    mode "2560x1440@164.958" // Set resolution and refresh rate
+output "DPe-1" {
+    mode "1920x1080@60.002" // Set resolution and refresh rate
     position x=0 y=0
     scale 1 // No scaling (use 2 for HiDPI)
     variable-refresh-rate
-}
-output "DP-2" {
-    mode "2560x1080@143.945" // Set resolution and refresh rate
-    position x=0 y=-1080
-    scale 1 // No scaling (use 2 for HiDPI)
 }
 
 // ────────────── Keybindings ──────────────
@@ -203,6 +193,7 @@ binds {
     spawn-sh-at-startup "awww-daemon" // Wallpaper daemon
     spawn-sh-at-startup "awww img /home/alex/Bilder/7202672-stargazing-midnight-lofi-girl-headphones-illustration-wallpaper-hd-anime-wallpaper-4k-wallpaper-image-background-photos-and-picture.jpg" // Set wallpaper
     spawn-sh-at-startup "waybar" // Launch waybar
+	spawn-sh-at-startup "wlr-autorotate -m eDP-1"
     spawn-at-startup "swaync"
     spawn-at-startup "lxqt-powermanagement"
     prefer-no-csd // Disable program decorations
