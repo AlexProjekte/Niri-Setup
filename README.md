@@ -57,4 +57,5 @@ Its mostly themed after the "Dracula" theme.
 # Laptop stuff
 
 -lxqt-powermanagement
+
 -wlr-autorotate
